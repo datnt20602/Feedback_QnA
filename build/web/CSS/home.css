@@ -1,0 +1,113 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 2, 2023, 9:53:48 PM
+    Author     : jiggnguyen
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+#main {
+    display: flex;
+    min-height: calc(100vh - 10vh);
+    background-image: url("../IMAGE/3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+#main > article {
+    flex: 1;
+    color: orange;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    font-family: lato;
+    letter-spacing: 5px;
+
+}
+#main > nav
+{
+    flex: 0 0 20vw;
+    background: beige;
+}
+#main > nav {
+    order: -1;
+    color: orange;
+    font-weight: bold;
+    font-size: large;
+}
+header, footer, article, nav {
+    padding: 1em;
+}
+header{
+    background: white;
+    height: 10vh;
+
+}
+ul {
+    list-style: none;
+    display: flex;
+
+    font-weight: bold;
+
+}
+li a {
+    padding-left: 40px;
+    text-decoration: none;
+}
+.home-link {
+    margin-right: 100px;
+}
+.logo {
+    display: inline-flex;
+}
+h3 {
+    font-size: large;
+    padding-bottom: 10px;
+
+}
+.banner h2{
+    border-bottom: 2px solid #ff9e45;
+    padding-bottom: 5px;
+}
+.banner{
+    width: 500px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 5px;
+}
+footer {
+    height: 10vh;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    color: grey;
+    background-color: black;
+}
+
+a {
+    height: fit-content;
+    width:fit-content;
+    text-decoration: none;
+}
+
+button {
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #CDFEFE;
+    transform: scale(1.1);
+    transition: 0.15s;
+}
